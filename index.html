@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC Suplementos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="div-header">
+        <header>
+            <div>
+                <h1>EBAC Suplementos</h1>
+            </div>
+
+            <div>
+                <nav>
+                    <ul class="ul-link">
+                        <li><a class="none-link" href="#sobre">Sobre a Loja</a></li>
+                        <li><a class="none-link" href="produtos">Produtos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <div id="div-body">
+
+        <main>
+
+            <div class="container">
+                <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img class="d-block w-100" src="./image/carousel-1.png" alt="">
+                            <div class="carousel-caption">
+                                <h2>Melhores Suplementos</h2>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block w-100" src="./image/carousel-2.png" alt="">
+                            <div class="carousel-caption">
+                                <h2>Força todos os dias!</h2>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="./image/carousel-3.png" alt="">
+                            <div class="carousel-caption">
+                                <h2></h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev"
+                        type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="0"
+                            class="active"></button>
+                        <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="2"></button>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+    </div>
+
+    <div class="container">
+        <div class="row ml-0 mr-0 mt-2 mb-2 ">
+
+            <div class="row mt-4 mb-4 d-flex justify-content-between ">
+                <div class="col-lg-3 col-md-3 col-sm-12 iconCSS d-flex align-items-center justify-content-center mb-2">
+                    <p class="m-0 pCenter">Frete Grátis</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 iconCSS d-flex align-items-center justify-content-center mb-2">
+                    <p class="m-0 pCenter">20% de Desconto</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 iconCSS d-flex align-items-center justify-content-center mb-2">
+                    <p class="m-0 pCenter">Site Seguro</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img class="d-block w-100" src="./image/body.jpg" alt="Homem na Academia">
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div id="sobre-texto">
+                    <div class="div-h2">
+                        <h2>Sobre a Loja</h2>
+                    </div>
+
+                    <p>Bem-vindo à EBAC Suplementos, o seu destino definitivo para alcançar os seus objetivos de saúde e
+                        bem-estar! Aqui na EBAC, estamos comprometidos em oferecer uma ampla variedade de suplementos de
+                        alta qualidade.</p>
+                    <p id="pDesktop">
+                        Nossos suplementos são cuidadosamente selecionados para atender às suas necessidades
+                        individuais.
+                        Nossa equipe é composta por especialistas apaixonados por saúde e fitness, prontos para
+                        orientá-lo na jornada rumo a uma vida mais saudável. Seja você um atleta dedicado, um entusiasta
+                        do fitness ou alguém em busca de melhorias na saúde, temos produtos para ajudá-lo a alcançar
+                        seus objetivos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------INICIO--------------------------------->
+
+    <div class="container">
+        <div id="produt" class="div-h2">
+            <h2>Produtos</h2>
+        </div>
+    
+        <div id="produtos" class="divProdutos">
+            <article>
+                <a href="#">
+                    <img src="./image/BCAA.jpg" alt="BCAA">
+                    <h3>BCAA</h3>
+                    <p>Recuperação muscular intensificada.</p>
+                </a>
+                <button type="button">Adicionar ao Carrinho</button>
+            </article>
+    
+            <article>
+                <a href="#">
+                    <img src="./image/wey.jpg" alt="">
+                    <h3>Whey Protein</h3>
+                    <p>Proteína de qualidade para crescimento.</p>
+                </a>
+                <button type="button">Adicionar ao Carrinho</button>
+            </article>
+    
+            <article>
+                <a href="#">
+                    <img src="./image/creat.jpg" alt="">
+                    <h3>Creatina</h3>
+                    <p>Potencialize seu desempenho.</p>
+                </a>
+                <button type="button">Adicionar ao Carrinho</button>
+            </article>
+    
+            <article>
+                <a href="#">
+                    <img src="./image/kit.jpg" alt="">
+                    <h3>Kit Whey + BCAA</h3>
+                    <p>Combinação ideal para resultados ótimos.</p>
+                </a>
+                <button type="button">Adicionar ao Carrinho</button>
+            </article>
+        </div>
+    
+    </div>
+
+
+
+
+
+    <!-------------------------------------FIM--------------------------------->
+
+
+
+
+
+    
+
+    <div id="avaliacao" class="container">
+        <div class="row">
+            <h2>Avaliações</h2>
+            <div class="div-h2"></div>
+        </div>
+        <div class="row mt-6">
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-6">
+                <header class="card-header">
+                    <p></p>
+                </header>
+                <img class="w-100" src="./image/m-academia.jpg" alt="">
+                <div class="card-body">
+                    <h3>Lorem</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="card-footer">
+                    Postado em <time>30/12/2023 às 14:00:00</time>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card-header">
+                    <p></p>
+                </div>
+                <img class="w-100" src="./image/m2-academia.jpg" alt="">
+                <div class="card-body">
+                    <h3>Lorem</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="card-footer">
+                    Postado em <time>30/12/2023 às 14:00:00</time>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card-header">
+                    <p></p>
+                </div>
+                <img class="w-100" src="./image/h-academia.jpg" alt="">
+                <div class="card-body">
+                    <h3>Lorem</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="card-footer">
+                    Postado em <time>30/12/2023 às 14:00:00</time>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </main>
+
+
+    </div>
+
+  
+    <footer>
+        <div>
+            <p>
+                &copy; 2023 - Todos os direitos reservados
+            </p>
+            <p>
+                Av. Paulista, S/N - (11) 99999-9999
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
